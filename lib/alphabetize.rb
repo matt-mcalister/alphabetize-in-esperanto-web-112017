@@ -6,6 +6,6 @@ def alphabetize(arr)
   alpha = "abcdefghijklmnopqrstuvwxyz,."
 
   arr.sort_by do |string|
-
+    string.tr(espr,alpha)
   end
 end
