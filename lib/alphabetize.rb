@@ -5,6 +5,6 @@ def alphabetize(arr)
   espr = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
   arr.sort_by do |string|
-    string.find {|el| espr.include?(el)}      
+    string.split.find {|el| espr.include?(el)}      
   end
 end
