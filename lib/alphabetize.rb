@@ -3,7 +3,7 @@ require "pry"
 def alphabetize(arr)
   # code here
   espr = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  alpha = "abcdefghijklmnopqrstuvwxyz12"
+  alpha = "abcdefghijklmnopqrstuvwxyz0*"
 
   arr.sort_by do |string|
 
